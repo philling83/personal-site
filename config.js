@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Prologue', // <title>
-  manifestName: 'Prologue',
+  siteTitle: 'Portfolio Site', // <title>
+  manifestName: 'Portfolio',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
@@ -8,29 +8,24 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-prologue/`, // This path is subpath of your hosting https://domain/portfolio
-  authorName: 'Anubhav',
-  heading: 'Web Developer',
+  authorName: 'Philip Ling',
+  heading: 'Fullstack Software Developer',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/philling83',
     },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      icon: 'fa-linkedin',
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/philip-ling-218082204/',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:philling83@gmail.com',
     },
   ],
 };
