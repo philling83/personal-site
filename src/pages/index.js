@@ -3,14 +3,6 @@ import React from 'react';
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
-
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
-import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
 
 const sections = [
@@ -29,11 +21,11 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Anubhav</strong>
+              Hi! I'm <strong>Philip</strong>
               <br />
-              Web developer
+              Full Stack Software Developer
             </h2>
-            <p>I have made few things check it out.</p>
+            <p>I have made a few things. Check them out!</p>
           </header>
 
           <footer>
@@ -51,19 +43,11 @@ const IndexPage = () => (
           <header>
             <h2>Portfolio</h2>
           </header>
-
-          <p>
-            Life will feel it is always a great need for eu valley, the valley
-            CNN ridiculous smile at any time chat mainstream clinical homes.
-            Mauris floor was very warm and we need it. One customer now nibh
-            Bureau dark pools behavior.
-          </p>
-
           <div className="row">
             <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
-                  <img src={pic2} alt="" />
+                  <img src="https://live.staticflickr.com/65535/50946843693_f1f1a1643d_z.jpg" alt="" />
                 </a>
                 <header>
                   <h3>Ipsum Feugiat</h3>
@@ -71,14 +55,14 @@ const IndexPage = () => (
               </article>
               <article className="item">
                 <a href="/#" className="image fit">
-                  <img src={pic3} alt="" />
+                  <img src="https://live.staticflickr.com/65535/50947385611_497f987e33_b.jpg" alt="openbook" />
                 </a>
                 <header>
                   <h3>Rhoncus Semper</h3>
                 </header>
               </article>
             </div>
-            <div className="col-4 col-12-mobile">
+            {/* <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
                   <img src={pic4} alt="" />
@@ -113,7 +97,7 @@ const IndexPage = () => (
                   <h3>Orci Convallis</h3>
                 </header>
               </article>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -124,9 +108,9 @@ const IndexPage = () => (
             <h2>About Me</h2>
           </header>
 
-          <a href="/#" className="image featured">
+          {/* <a href="/#" className="image featured">
             <img src={pic8} alt="" />
-          </a>
+          </a> */}
 
           <p>
             Developers football competition in diameter big price to layer the
