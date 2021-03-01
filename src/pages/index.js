@@ -50,7 +50,12 @@ const IndexPage = () => (
                   <img src="https://live.staticflickr.com/65535/50946843693_f1f1a1643d_z.jpg" alt="" />
                 </a>
                 <header>
-                  <h3>Ipsum Feugiat</h3>
+                  <h3>Meadium</h3>
+                  <h5>
+                    Meadium is an online publishing platform modeled on Medium.com, where users can come together
+                    and talk about all things alcoholic. They can create accounts, post their own stories, and
+                    comment/rate stories created by fellow community members.
+                  </h5>
                 </header>
               </article>
               <article className="item">
@@ -58,7 +63,14 @@ const IndexPage = () => (
                   <img src="https://live.staticflickr.com/65535/50947385611_497f987e33_b.jpg" alt="openbook" />
                 </a>
                 <header>
-                  <h3>Rhoncus Semper</h3>
+                  <h3>OpenBook</h3>
+                  <h5>
+                    OpenBook is a virtual learning platform modeled off of Quizlet and Nearpod. As a teacher, you
+                    can log in and create classrooms with multiple students, assigning them decks of flashcards
+                    that you can create or obtain from our library. These flashcards will give immediate feedback
+                    to students upon completion. As a student, you can join a classroom and see all the assignments
+                    that you have been given and complete them before the deadline.
+                  </h5>
                 </header>
               </article>
             </div>
@@ -129,15 +141,6 @@ const IndexPage = () => (
           <header>
             <h2>Contact</h2>
           </header>
-
-          <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
-          </p>
-
           <form method="post" action="#">
             <div className="row">
               <div className="col-6 col-12-mobile">
