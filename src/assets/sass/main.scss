@@ -260,6 +260,8 @@
 /* Row */
 
 	.row {
+		// display: flex;
+		// justify-content: center;
 		@include html-grid((40px, 40px));
 
 		@include breakpoint('wide') {
@@ -281,6 +283,11 @@
 		@include breakpoint('<=mobile') {
 			@include html-grid((20px, 20px), 'mobile');
 		}
+	}
+
+	.row_portfolio {
+		display: flex;
+		justify-content: center;
 	}
 
 /* Sections/Article */
@@ -521,9 +528,17 @@
 /* Item */
 
 	.item {
+		@include breakpoint('wide') {
+			width: 900px;
+		}
 		@include breakpoint('normal') {
+			width: 800px;
+		}
+		@include breakpoint('narrow') {
+			width: 700px;
+		}
+		@include breakpoint('narrower') {
 			width: 600px;
-			align-self: center;
 		}
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;

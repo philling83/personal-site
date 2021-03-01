@@ -43,7 +43,7 @@ const IndexPage = () => (
           <header>
             <h2>Portfolio</h2>
           </header>
-          <div className="row">
+          <div className="row_portfolio">
             <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
