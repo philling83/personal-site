@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/personal-site/`, // This path is subpath of your hosting https://domain/portfolio
   authorName: 'Philip Ling',
-  heading: 'Fullstack Software Developer',
+  heading: 'Full Stack Software Developer',
   // social
   socialLinks: [
     {

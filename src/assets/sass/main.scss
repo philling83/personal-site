@@ -260,8 +260,6 @@
 /* Row */
 
 	.row {
-		// display: flex;
-		// justify-content: center;
 		@include html-grid((40px, 40px));
 
 		@include breakpoint('wide') {
