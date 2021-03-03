@@ -126,6 +126,24 @@ const IndexPage = () => (
           </a> */}
 
           <p>
+            I love to learn new innovative ways to tackle a problem and finding efficient solutions to said problems.
+            Software development gives me an outlet for that. The constant testing and refactoring of code culminating
+            in a functional product is what I enjoy most about software development. I have great experience with
+            JavaScript, Python, React, HTML/CSS, and Node.js.
+          </p>
+          <p>
+            During my free time you can catch me out for a run or inside playing video games with my friends
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" className="three">
+        <div className="container">
+          <header>
+            <h2>Skills</h2>
+          </header>
+
+          <p>
             Developers football competition in diameter big price to layer the
             pot. Chavez ultricies care who wants to CNN. Lobortis elementum
             aliquet eget a den of which they do not hold it in hatred developers
