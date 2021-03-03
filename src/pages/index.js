@@ -14,6 +14,7 @@ const sections = [
 ];
 
 const IndexPage = () => (
+
   <Layout>
     <SideBar sections={sections} />
 
@@ -48,23 +49,10 @@ const IndexPage = () => (
             <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
-                  <img src="https://live.staticflickr.com/65535/50946843693_f1f1a1643d_z.jpg" alt="" />
+                  <img src="https://live.staticflickr.com/65535/50947385611_497f987e33_b.jpg" alt="openbook"/>
                 </a>
                 <header>
-                  <h3>Meadium</h3>
-                  <h5>
-                    Meadium is an online publishing platform modeled on Medium.com, where users can come together
-                    and talk about all things alcoholic. They can create accounts, post their own stories, and
-                    comment/rate stories created by fellow community members.
-                  </h5>
-                </header>
-              </article>
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src="https://live.staticflickr.com/65535/50947385611_497f987e33_b.jpg" alt="openbook" />
-                </a>
-                <header>
-                  <h3>OpenBook</h3>
+                  <h2>OpenBook</h2>
                   <h5>
                     OpenBook is a virtual learning platform modeled off of Quizlet and Nearpod. As a teacher, you
                     can log in and create classrooms with multiple students, assigning them decks of flashcards
@@ -73,6 +61,27 @@ const IndexPage = () => (
                     that you have been given and complete them before the deadline.
                   </h5>
                 </header>
+                <div className="portfolio_button_container">
+                  <button onClick={() => window.open("https://github.com/philling83/OpenBook")}>Github</button>
+                  <button onClick={() => window.open("https://openbook-app.herokuapp.com/")}>Live Site</button>
+                </div>
+              </article>
+              <article className="item">
+                <a href="/#" className="image fit">
+                  <img src="https://live.staticflickr.com/65535/50946843693_f1f1a1643d_z.jpg" alt="" />
+                </a>
+                <header>
+                  <h2>Meadium</h2>
+                  <h5>
+                    Meadium is an online publishing platform modeled on Medium.com, where users can come together
+                    and talk about all things alcoholic. They can create accounts, post their own stories, and
+                    comment/rate stories created by fellow community members.
+                  </h5>
+                </header>
+                <div className="portfolio_button_container">
+                  <button className="portfolio_button" onClick={() => window.open("https://github.com/Sisysphus/Meadium")}>Github</button>
+                  <button className="portfolio_button" onClick={() => window.open("https://meadium-app.herokuapp.com/")}>Live Site</button>
+                </div>
               </article>
             </div>
             {/* <div className="col-4 col-12-mobile">
