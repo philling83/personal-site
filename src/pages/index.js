@@ -9,7 +9,7 @@ const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
   { id: 'portfolio', name: 'Portfolio', icon: 'fa-th' },
   { id: 'about', name: 'About Me', icon: 'fa-user' },
-  { id: 'skills', name: 'Skills', icon: 'fa-user' },
+  { id: 'skills', name: 'Skills', icon: 'fa-desktop' },
   { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
 ];
 
@@ -121,10 +121,6 @@ const IndexPage = () => (
             <h2>About Me</h2>
           </header>
 
-          {/* <a href="/#" className="image featured">
-            <img src={pic8} alt="" />
-          </a> */}
-
           <p>
             I love to learn new innovative ways to tackle a problem and finding efficient solutions to said problems.
             Software development gives me an outlet for that. The constant testing and refactoring of code culminating
@@ -143,15 +139,22 @@ const IndexPage = () => (
             <h2>Skills</h2>
           </header>
 
-          <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
-          </p>
+          <div className="skills_container">
+            <i class="devicon-javascript-plain colored"></i>
+            <i class="devicon-python-plain-wordmark colored"></i>
+            <i class="devicon-react-original-wordmark colored"></i>
+            <i class="devicon-redux-original colored"></i>
+            <i class="devicon-html5-plain-wordmark colored"></i>
+            <i class="devicon-css3-plain-wordmark colored"></i>
+            <i class="devicon-express-original-wordmark colored"></i>
+            <i class="devicon-flask-original-wordmark colored"></i>
+            <i class="devicon-postgresql-plain-wordmark colored"></i>
+            <i class="devicon-nodejs-plain colored"></i>
+            <i class="devicon-git-plain-wordmark colored"></i>
+            <i class="devicon-github-original-wordmark colored"></i>
+            <i class="devicon-docker-plain colored"></i>
+          </div>
+
         </div>
       </section>
 
