@@ -192,7 +192,6 @@ const IndexPage = () => (
               </svg>
             </div>
           </div>
-
         </div>
       </section>
 
