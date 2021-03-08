@@ -30,12 +30,15 @@ const IndexPage = () => (
             <p>I have made a few things. Check them out!</p>
           </header>
 
-          <footer>
+          <footer className="intro_footer_container">
             <Scroll type="id" element={'portfolio'}>
               <a href="#portfolio" className="button">
                 Show me
               </a>
             </Scroll>
+            <a href="#portfolio" className="button">
+                Resume
+            </a>
           </footer>
         </div>
       </section>
@@ -84,42 +87,6 @@ const IndexPage = () => (
                 </div>
               </article>
             </div>
-            {/* <div className="col-4 col-12-mobile">
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic4} alt="" />
-                </a>
-                <header>
-                  <h3>Magna Nullam</h3>
-                </header>
-              </article>
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic5} alt="" />
-                </a>
-                <header>
-                  <h3>Natoque Vitae</h3>
-                </header>
-              </article>
-            </div>
-            <div className="col-4 col-12-mobile">
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic6} alt="" />
-                </a>
-                <header>
-                  <h3>Dolor Penatibus</h3>
-                </header>
-              </article>
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic7} alt="" />
-                </a>
-                <header>
-                  <h3>Orci Convallis</h3>
-                </header>
-              </article>
-            </div> */}
           </div>
         </div>
       </section>
@@ -195,7 +162,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="contact" className="four">
+      {/* <section id="contact" className="four">
         <div className="container">
           <header>
             <h2>Contact</h2>
@@ -217,7 +184,7 @@ const IndexPage = () => (
             </div>
           </form>
         </div>
-      </section>
+      </section> */}
     </div>
 
     <PageFooter />

@@ -15,16 +15,19 @@ module.exports = {
     {
       icon: 'fa-github',
       name: 'Github',
+      target: "_blank",
       url: 'https://github.com/philling83',
     },
     {
       icon: 'fa-linkedin',
       name: 'LinkedIn',
+      target: "_blank",
       url: 'https://www.linkedin.com/in/philip-ling-218082204/',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
+      target: "_self",
       url: 'mailto:philling83@gmail.com',
     },
   ],
