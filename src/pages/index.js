@@ -10,7 +10,7 @@ const sections = [
   { id: 'portfolio', name: 'Portfolio', icon: 'fa-th' },
   { id: 'about', name: 'About Me', icon: 'fa-user' },
   { id: 'skills', name: 'Skills', icon: 'fa-desktop' },
-  { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
+  // { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
 ];
 
 const IndexPage = () => (
