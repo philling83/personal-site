@@ -36,7 +36,7 @@ const IndexPage = () => (
                 Show me
               </a>
             </Scroll>
-            <a href="resume.pdf" className="button">    
+            <a href={require("../../resume.pdf")} className="button">    
                 Resume
             </a>
           </footer>
