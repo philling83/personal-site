@@ -36,7 +36,7 @@ const IndexPage = () => (
                 Show me
               </a>
             </Scroll>
-            <a href="https://docs.google.com/document/d/e/2PACX-1vRLeewsCIMejQQk_wzYGJqx2TTQLQWom17g2ZWX-kNvOcCS-M81TxBzxHjNvxEC8XFVaintPJCrGk-_/pub" className="button">
+            <a href="resume.pdf" className="button">    
                 Resume
             </a>
           </footer>
