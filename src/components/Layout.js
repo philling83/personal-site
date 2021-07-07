@@ -46,9 +46,11 @@ class Layout extends Component {
               meta={[
                 { name: 'description', content: 'Eventually' },
                 { name: 'keywords', content: 'site, web' },
+                { name: "image", property: "og:image", content: "https://live.staticflickr.com/65535/51296680871_d0ea80120b_z.jpg" },
               ]}
             >
               <html lang="en" />
+              {/* <meta name="image" property="og:image" content="https://live.staticflickr.com/65535/51296680871_d0ea80120b_z.jpg"></meta> */}
             </Helmet>
             <div className={isPreloaded ? 'main-body is-preload' : 'main-body'}>
               {children}
