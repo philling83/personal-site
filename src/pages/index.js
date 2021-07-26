@@ -52,6 +52,21 @@ const IndexPage = () => (
             <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
+                  {/* <img src="https://live.staticflickr.com/65535/50947385611_497f987e33_b.jpg" alt="openbook" /> */}
+                </a>
+                <header>
+                  <h2>Higher or Lower (Spotify Edition)</h2>
+                  <h5>
+                    
+                  </h5>
+                </header>
+                <div className="portfolio_button_container">
+                  <button onClick={() => window.open("https://github.com/philling83/Stepzen-Hackathon")}>Github</button>
+                  <button onClick={() => window.open("https://higher-lower-spotify.herokuapp.com/")}>Live Site</button>
+                </div>
+              </article>
+              <article className="item">
+                <a href="/#" className="image fit">
                   <img src="https://live.staticflickr.com/65535/50947385611_497f987e33_b.jpg" alt="openbook"/>
                 </a>
                 <header>
