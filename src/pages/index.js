@@ -52,12 +52,14 @@ const IndexPage = () => (
             <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
-                  {/* <img src="https://live.staticflickr.com/65535/50947385611_497f987e33_b.jpg" alt="openbook" /> */}
+                  <img src="https://live.staticflickr.com/65535/51284742972_9c828e7eba_z.jpg" alt="Higher Lower Spotify" />
                 </a>
                 <header>
                   <h2>Higher or Lower (Spotify Edition)</h2>
                   <h5>
-                    
+                    Higher or Lower (Spotify Edition) is a browser trivia game, modeled off the original Higher Lower 
+                    Game based on most Google searches. Test your knowledge on today's top hits and see if your favorite
+                    songs are as popular as you think.
                   </h5>
                 </header>
                 <div className="portfolio_button_container">
