@@ -131,7 +131,6 @@ const IndexPage = () => (
           <header>
             <h2>Skills</h2>
           </header>
-
           <div className="skills_container">
             <div className="row_skills">
               <svg viewBox="0 0 128 128" height="100" width="100">
